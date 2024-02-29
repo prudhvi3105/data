@@ -1,0 +1,858 @@
+
+Conversation with Gemini
+profile picture
+where can i get data sets of indian law and rights. for training lawbot 
+Here's a breakdown of resources to find datasets for Indian law and rights to train your lawbot. It's important to note that data availability can be limited and may require some effort to transform into usable formats for your project.
+
+Data Sources
+
+Justice Hub (https://justicehub.in/dataset): A repository focused on datasets related to the Indian justice system. Explore sections on police, courts, judges, and more.
+Open Government Data (OGD) Platform India (https://data.gov.in/): The official Indian government portal for open data. Use the "Legal" keyword search (https://data.gov.in/keywords/Legal) to find relevant datasets.
+Manupatra (https://www.manupatrafast.com/ipAccess.aspx): A commercial legal database with extensive coverage of Indian law, including Supreme Court and High Court cases, statutes, notifications, and more. You may need a subscription.
+India Code (http://indiacode.nic.in/): The official Indian government website for central legislative acts. You'll find text data of laws that might need processing.
+Legal Information Institute of India (LII of India) ([invalid URL removed]): Provides access to case law, statutes, and other legal resources.
+Types of Data
+
+Case Law/Judgments: Decisions from the Supreme Court, various High Courts, and potentially lower courts.
+Bare Acts/Statutes: The text of enacted laws
+Notifications & Circulars: Legal notices and official communications
+Legal Forms & Templates: Examples can be helpful for understanding the structure and language used in legal documents.
+Considerations
+
+Data Quality: Datasets from government sources might have inconsistent formatting or require cleaning.
+Scraping: You may need to scrape websites like India Code or LII of India if ready-made datasets aren't available. Be mindful of website terms of use and rate limits.
+Data Labeling: For effective training, you'll likely need to label data with categories (e.g., type of law, relevant legal concepts). This could be time-consuming.
+Additional Tips
+
+Collaborate: Consider reaching out to legal research institutes or law schools in India that might have datasets or be open to collaboration.
+Community Forums: Engage in online legal forums or data science communities focused on India. You might find leads or others interested in similar projects.
+Let me know if you'd like help finding datasets on a specific area of Indian law!
+
+profile picture
+the dataset should have all the basic stuffs like rights of a citizen or lime how to file a case, etc... give me step by step guide to download
+Unfortunately, finding a pre-existing dataset encompassing all basic rights of an Indian citizen and detailed "how-to" guides on filing cases is unlikely. Here's why, and a breakdown of how you might approach collecting and structuring similar data:
+
+Challenges
+
+Complexity: Indian legal rights and procedures are extensive and nuanced. Creating a comprehensive dataset would be a massive undertaking.
+Language: Legal language is complex. A dataset designed for a lawbot requires simplification and potentially translation into multiple Indian languages.
+Up-to-date Information: Laws and procedures change. A dataset requires ongoing maintenance.
+Steps for Building Your Own Dataset
+
+Scope:
+
+Define specific citizen rights you wish to cover (e.g., fundamental rights, consumer rights, property rights). Start with a smaller, well-defined focus.
+Determine the level of detail needed for "how to file a case". Will it be high-level guidance or step-by-step procedural instructions?
+Sources:
+
+Government Websites: Explore the websites of relevant ministries (Ministry of Law & Justice, Ministry of Consumer Affairs, etc.) and government portals. These may provide informational text.
+Citizen Guides: Look for official guides or handbooks for citizens that explain rights and procedures in a simpler format.
+NGOs/Legal Aid: Some organizations focused on legal aid might have educational materials that can be adapted.
+Data Extraction:
+
+Manual: If the source is not machine-readable, you'll need to copy and paste relevant text.
+Web Scraping (If Allowed): If the website's terms permit it, write scripts to extract text from structured websites. (Be respectful of the site's resources)
+Data Structuring
+
+Categories: Divide rights by topic (e.g., "Right to Equality," "Consumer Protection Rights").
+Questions and Answers: Frame procedural information as questions a citizen might ask (e.g., "How do I file a consumer complaint?"), followed by the instructions.
+Labeling: Create relevant labels (e.g., "Constitutional Law," "Civil Procedure") for easier search within your lawbot.
+Data Format:
+
+CSV/Excel: Good for simple, structured data.
+JSON/XML: More flexible for complex or hierarchical data relationships.
+Example: Downloading from a Fictional Source
+Let's pretend the "Ministry of Citizen Rights" has a clear guide on "Fundamental Rights of Indian Citizens" downloadable in PDF format:
+
+Go to the Ministry of Citizen Rights website.
+Find the "Citizen Guides" section.
+Locate the PDF titled "Fundamental Rights of Indian Citizens."
+Download the PDF.
+(You'll likely need a PDF conversion tool to extract the text into a usable format.)
+Important Considerations:
+
+Accuracy: Double-check the accuracy of simplified explanations. Consider getting a legal professional to review your dataset.
+Disclaimer: Make it clear the bot provides legal information, not legal advice, and direct users to consult a lawyer for individual cases.
+This is a resource-intensive project. Start with a focused area of law and iterate from there!
+
+profile picture
+Family Law and its Sources: Concept of Marriage and Divorce
+By Mohd Aqib Aslam | Views 52204
+All over the world, marriage began as a sacrament (religious ceremony). Hindus took marriage as indissoluble (unable to be destroyed) even after death. Whereas, Muslims took marriage as a contract. Muslim marriage has been defined as a civil contract for the purpose of legalizing sexual intercourse and procreation of children.
+
+Family Law and its Sources
+Family law is the area of law that addresses family relationships. It includes creating family relationships and breaking them through divorce and termination of parental rights. This law addresses adoption, contested custody of children, etc. There are five broad sets of family laws in India, namely Hindu law, which governs all Hindus, Buddhists, Jains, and Sikhs, Muslim law for the Muslims; Christian law for the Christian; Parsi law for the Parsis and secular law, i.e. the Special Marriage Act. The religion-based laws are derived from religious texts. These laws have also been amended from time-to-time by Parliamentary legislation.
+
+Sources and Schools
+There are many sources and schools for the explanation of the concept of laws in different religions. Some of them are given below:
+Sources of Hindu Law
+Sources of Hindu law can be classified into two heads
+
+Ancient Sources
+According to Manu, there are four sources of Hindu law i.e.
+
+Shruti
+Shruti is believed to contain the precious words of God. The shruti mainly consists of four Vedas (namely the Rig Veda, the Yajur Veda, the Sama Veda and the Atharva Veda), six Vedangas and the eighteen Upanishads.
+
+Smritis
+It contains those portions of the shrutis which the saints forgot in their original form and then they wrote in their own way with the help of their memory. Thus, it is based on shrutis. The smritis are divided into two kind's viz. Dharamasutras and Dharamshastras
+
+Commentaries and Digests
+Commentaries (Tika or Bhashya) and Digests (Nibandhs) covered a period from 600 AD to 1200 AD. The commentaries professing and purporting to rest on the smritis explained, modified and enlarged the traditions recorded therein to bring them into harmony and accord with prevalent practice which is suitable with the time.
+
+Customs
+It is regarded as the highest 'dharma'. It is explained by the judicial committee and signifies a rule in a particular family or in a class or district. Custom is a principle source and its position is next to the shrutis and smritis but usage of custom prevails over the smritis.
+
+Customs are divided into several parts:
+
+    Local customs
+    Class customs
+    Family customs
+     
+
+Characteristics of customs needed to declare them valid are:
+
+    It must be ancient.
+    It must be certain and free from ambiguity.
+    It must be reasonable.
+    It must be continuous.
+    It must not be opposed to public policy.
+    It must not be opposed to any law.
+
+
+Modern Sources
+The modern sources of Hindu law are given below:
+Justice, Equity and Good Conscience
+When any dispute comes before a court and which cannot be settled by the application of any rule from any available sources, then the principles of justice, equity and good conscience would be applied. For example, case of Gurunath V. Kamlabai (A.I.R. 1955 S.C. 206).
+
+Precedent
+The doctrine of precedent was based on the principle of treating like cases alike.
+It is called to be a source of Hindu law in two senses, which are as follows:
+
+    All the important principles and rules of Hindu law have now been embodied in case law.
+    It is a source of law in the sense that by the process of judicial interpretation doctrines, principles and rules of law stand modified and altogether have been introduced in the body of Hindu law.
+
+The decisions of Privy Council are binding on all the lower courts in India except where they have been modified or altered by Supreme Court, whose decisions are binding on all courts, except for itself.
+
+Judicial Decisions
+Judicial decisions on Hindu law are sometimes taken as a source of law. In the law reports, all important points of Hindu law are to be found. Sometimes, the decisions on Hindu law have superseded the commentaries.
+
+
+
+For example:  case of Shri Krishna Singh V. Mathura Ahir, (1981) 3 S.C.C. 
+689.
+
+
+
+Legislation
+
+Legislative acts of Parliament play an important role in formation of Hindu Law. 
+After independence, Hindu laws important aspects have been codified. For 
+example, the Hindu Marriage Act, 1955, The Hindu Adoptions and Maintenance Act, 
+1956, The Hindu Succession Act, 1956, The Hindu Minority and Guardianship Act, 
+1956, etc.
+
+
+
+Schools of Hindu Law
+
+The Vedas and Smritis are the most reliable source of laws in India, but they 
+are not easy to understand. So many scholars in India wrote commentaries, which 
+led to the development of these schools.
+
+
+
+There are two main schools of Hindu Law:
+
+Mitakshara School
+
+It is named after the commentary called Mitakshara written by Vijnaneshwara on 
+Yajnavalkya Smriti. It is applicable to whole India excluding the State of 
+Assam. In case of Rohan V. Lakshman 1976, it was held that the effect of 
+Mitakshara School is so strong that it also applies to even undescribed subjects 
+in Bengal and Assam.
+
+
+
+It is the orthodox school which is divided into four sub-schools:
+
+	Banaras sub-school
+	Mithila sub-school
+	Maharashtra sub-school
+	Dravida or Madras sub-school
+
+
+
+Dayabhaga School
+
+The Dayabhaga School is mainly found in Bengal and Assam. It is not a commentary 
+on any particular code but is a digest of all the codes. It was written by 
+Jimutavahana in 12th century. It is the reformist school of Hindu law. The 
+succession of property in this school is based on spiritual principles. The 
+person who earns maximum peace and religious profit for the soul of deceased by 
+performing 'Pindadaan' is the successor of the property in this school. On the 
+basis of succession, his property shall devolve among his heirs, in case of 
+death of a Hindu person. The coparcenary evolves after the death of the father.
+
+
+
+Sources of Muslim Law
+
+The sources of Muslim law can be classified into following heads:
+
+
+
+Ancient Sources
+
+There are four ancient sources of Muslim law, namely:
+
+Quran
+
+The word Quran means 'to be recited'. It is the first important 
+source of Islamic law. It is believed that these are direct words of God as 
+revealed to Muhammad through angel Gabriel in Mecca and Medina. The society 
+should be based on its moral, philosophical, social, political and economic 
+aspect. Muslim jurists agree that the Quran is not totally a legal code, rather 
+its purpose is to lay down a way of life which regulates man's relationship with 
+others and God.
+
+
+
+Sunnah
+
+The term Sunnah literally means the trodden path, a procedure, and a 
+way of action. It is the applied principles of Islam embodied in the holy 
+Quran. Important source of Sunnah is Hadis. Both Sunnah and Hadis are used 
+interchangeably in the law books whereas both are different. Sunnah is the rule 
+of law deduced from the practice of the Prophet, his noble behaviour. The study 
+of Hadis developed only after the formation of Sunnah through various schools of 
+law (Madhab). Tradition cannot repeal the Quranic text but can explain it. No 
+tradition can be received which is contrary to the Quran.
+
+
+
+Ijma
+
+Ijma means the view point of the learned. When persons know about the law and 
+would agree on a point, such consensual opinion was referred to as Ijma. So, 
+Ijma is the harmonious decision of jurists for a particular question with 
+reference to that age or communal legislation. It is through the tradition of 
+the Prophet that Ijma derives its validity and authority as a source of law. 
+Whenever, law needed an amendment, the jurists used to give a common opinion to 
+amend it and to find the new solution. To be a jurist or Mujtahid, it was 
+mandatory that the person was a Muslim with adequate knowledge of law.
+
+
+
+Types of Ijma are as follows:
+
+	Ijma of the Companions
+	Ijma of the Jurists
+	Ijma of the People
+
+
+
+Qiyas
+
+Qiyas is an Arabic word which means 'analogy or measurement'. It is analogical 
+deduction from the known to the unknown. It does not meant to create a new law 
+but apply old established principles to new circumstances. It is generally the 
+interpretation of law rather than a source of law. Ijthihad (means personal 
+reasoning), Istihsan (means Jurists preference), Ikhtilaf (means disagreement) 
+are the other principles of interpretation of Muslim law.
+
+
+
+Custom: Urf or Taamul
+
+It refers to the customs and practices of a given society which is formally 
+included in Islamic law. Sharia law recognizes customs that prevailed at the 
+time of Muhammad but were not abrogated by the Quran. It is not a formal source. 
+When rule of law is not present in the text of the primary sources, the 
+customary rules are treated as law. Most of the customs were abolished by the 
+Shariat Act, 1937. Section 2 lists ten matters. For example, inheritance, 
+marriage, divorce, wakf and maintenance wherein customs and usage cannot be 
+applied anymore.
+
+
+
+Modern Sources
+
+During British rule, the Muslim law has undergone various modifications. So, the 
+source of these modifications is
+
+Equity, Justice and Good Conscience
+
+Equity, justice and good conscience is the universal phenomenon and Muslim law 
+is not exceptional to this. For instance, Istihsan of the Hanafi School and the 
+doctrine of Maselihul Mursala of Malik.
+
+Cases which have no specific directions, the court has to act according to 
+equity, justice and good conscience. This was regulated by the regulations of 
+1781.
+
+
+
+Precedent
+
+The common law doctrine of precedent has never been part of Muslim law; the 
+decisions of a Kazi never constituted a precedent in English law. Fatawa belongs 
+to the approach of this doctrine in Muslim law, which has huge initiative force. 
+The Fatawa not possess moral sanctions but has legal authority. During British 
+period, the doctrine of precedent became part of Muslim law.
+
+
+
+Legislation
+
+In India, the Muslim law is not free from legislative and judicial intervention. 
+In some matters, pure Muslim law was altered. e.g.,
+
+	The Dissolution of Muslim Marriage Act, 1939.
+	Muslim Women (Protection of Right on Divorce) Act, 1985.
+	The Caste Disabilities Removal Act, 1850.
+	The Child Marriage Restraint Act, 1924.
+
+
+
+Schools of Muslim Law
+
+After the death of the Prophet Muhammad in 632 BCE, people divided into two 
+sects having different views regarding certain aspects of Islam. Thus, the 
+School of Muslim law can be broadly divided into two categories:
+
+Sunni Schools
+
+In Sunni sect, there are four main schools of Muslim law, which are as follows:
+
+Hanafi School
+
+Earlier, it was known as Kufa School which was based on the name of the city of 
+Kufa in Iraq. Later, on the name of its founder Abu Hanifa, it was renamed as 
+Hanafi School. Hanafi school is based on customs and decisions of the Muslim 
+community. The Prophet had not allowed his words and traditions to be pen down.
+
+
+
+Maliki School
+
+The school was named after Malik-bin-Anas, who were the Mufti of Madeena. During 
+his period, the Kufa was considered as the capital of Muslim Khalifa, where Imam 
+Abu Hanifa and his disciples flourished with Hanafi Schools. He discovered about 
+8,000 traditions of Prophet but compiled only about 2,000 of them.
+
+
+
+Shaffie School
+
+It was named after Muhammad-bin-Idris Shaffie. His period was between 767 AD to 
+820 AD. He was the student of Imam Malik of Madeena. It considered Ijma as the 
+important source of the Muslim law and give validity to the customs of Islamic 
+people and follows more methods of Hanafi school.
+
+
+
+Hanbali School
+
+This school was founded by the Ahmad-bin-Hanbal. He was the disciple of Imam 
+Shafi and supports Hadis. He introduced the theory of tracing the root of Sunna 
+and Hadis and try to find solutions of all his questions.
+
+
+
+Shia Schools
+
+In Shia sect, there are three main schools of Muslim law, which are given below:
+
+Ithna-Ashari School
+
+This school is mainly considered as the Shia Muslim dominant. The Jafari Fiqh of 
+the Shias in most cases is inseparable from the four Sunni Madhahib, only 
+exception is mutah as the lawful marriage. The follower of this school believe 
+that the last Imam disappeared and to be returning as Mehdi (Messiah).
+
+
+
+The Ismailis School
+
+In India, this school is divided into two groups i.e. the Khojas or Western 
+Ismailis and the Bohoras. The Bohoras and Khojas of Mumbai are the followers of 
+this school and considered that they have special knowledge of religious 
+doctrine.
+
+
+
+Zaidi School
+
+The followers of this school are not found in India. They mostly reside in Saudi 
+Arabia. The followers of this school are considered as the political activists. 
+They often rejected the twelve Shia school philosophies.
+
+
+
+Other Schools
+
+Other than Sunni and Shia sect schools, there are other schools of Muslim law, 
+which are as follows:
+
+	Ibadi School
+	Ahmadiva School
+
+
+
+Marriage and Dissolution of Marriage
+
+All over the Hindu and Christian words, marriage began as a sacrament. Marriage, 
+as a sacrament, necessarily implied a permanent and indissoluble union. Marriage 
+is a conjugal union of a man and woman which arises only from the free consent 
+of each spouse, but this freedom belongs to the question whether two persons 
+really wish to enter into matrimony or not, it is totally independent from the 
+free will of spouses. Once a contract of marriage is entered into, a marriage is 
+considered as sacrament.
+
+
+
+In Hyde V. Hyde Case, Lord Penzance gave the definition of marriage as I 
+conceive that marriage as understood in Christendom may be defined as the 
+voluntary union for life of one man and one woman to the exclusion of all 
+others.
+
+
+
+Under Hindu Law
+
+Marriage is a mandatory sanskar among Hindus and every Hindu must marry. They 
+considered it a sacramental union i.e. a Sacrosanct, permanent, indissoluble and 
+eternal union. They did not regard it as a contract, but as a tie which once 
+tied cannot be untied.
+
+
+
+Hindu Marriage-A Sacrament or Contract
+
+The Hindu Marriage Act, 1955 has abolished polygamy and introduced strict 
+monogamy for all Hindus. Divorce also has been recognised. The Hindu Marriage 
+Act does not lay down that a marriage without the consent of the parties is 
+void, though it does lay down that if consent of a party to marriage is obtained 
+by fraud or force, the marriage is voidable.
+
+
+
+In same way, when one of them is of unsound mind, the marriage is voidable. It 
+is laid down that the age of bride should not be less than 18 years and 
+bridegroom should not be less than 21 years in age. A combined reading of 
+Sections 5, 11 and 12 of the Hindu Marriage Act, leaves no doubt that consent is 
+not an essential aspect of Hindu marriage. The Hindu marriage has no longer 
+remained an indissoluble and eternal union. Widow marriages are allowed. Divorce 
+is also permitted. It may still be called a holy or sacramental union, in the 
+-sense that a sacramental ceremony is necessary. Thus, one may say that Hindu 
+marriage has neither become a contract nor has remained a sacramental union, it 
+has semblance of both.
+
+
+
+Under Muslim Law
+
+From the very initial time, Muslims have considered their marriage as a 
+contract. Muslim marriage has been defined as a civil contract for the purpose 
+of legalizing sexual intercourse and procreation of children. Muslim law does 
+not prescribe any religious service essential for its solemnization. Muslim 
+marriage is a contract which is evident from the nature of marriage and the mode 
+by which it is performed. Thus, only a civil ceremony, i.e. an offer made by one 
+party and accepted by another in one and the same meeting held in the presence 
+of two witnesses (not among Shias) is sufficient for entering into the contract 
+of marriage. Muslim marriage is a polygamous marriage limited to four wives. A 
+Muslim male has capacity to keep four wives simultaneously. But, if a Sunni male 
+takes five or more wives, his marriage with the fifth wife or subsequent wives 
+is not void but irregular.
+
+
+
+Parsi, Jew and Christian Marriages
+
+The Parsi marriage is also considered as a contract but the religious ceremony 
+of ashirvad is mandatory for its validity. Ashirvad means a prayer or 
+exhortation to the parties to observe their marital obligations. The marriage is 
+solemnised by a Parsi priest in the presence of two witnesses.
+
+
+
+The Jew marriage is also considered as contract. A written contract called 
+Katuba between the parties is essential for the validity of marriage. A 
+religious ceremony is also required.
+
+In India, Christian marriage is also a contract and is solemnized by a Minister 
+of Religion licensed under the Christian Marriage Act, 1872 and also by the 
+Marriage Registrar.
+
+Marriage is mandatorily a civil contract under the Special Marriage Act, 1954.
+
+
+
+Prohibition of Marriage on Account of Relationship by Blood or Affinity
+
+Since ancient system, the law deals with the prohibitions on marriage on account 
+of relationship of blood or affinity. The details of these prohibitions are as 
+follows
+
+Under Hindu Law
+
+Sagotra and Inter-caste Marriages
+
+Earlier Hindus were prohibited to marry within the same gotra and pravara. They 
+were also prohibited for inter-caste and inter-religious marriages.
+
+A Hindu cannot marry a non-Hindu under Hindu law. He/she can do so only under 
+the Special Marriage Act, as a civil marriage.
+
+
+
+In the modern Hindu law, marriages are prohibited on account of relationship 
+which are recognised - on two grounds, which are as follows
+
+Sapinda Relationship Section 3(f) (i) lays down:
+
+in sapinda relationship with reference to any person extends as far as the 
+third generation in the line of ascent through mother, and the fifth in the line 
+of ascent through the father, the line being traced upwards in each case from 
+the person concerned, who is to be counted as the first generation.
+
+
+
+Then, Section 3(f) (ii) lays down, persons are said to be 'Sapindas' of 
+each other if one is a lineal ascendant of the other within the limits of 
+sapinda relationship, or if they have a common lineal ascendant who is within 
+the limits of sapinda relationship with reference to each of them.
+
+
+
+Degrees of Prohibited Relationship: It is stated in Section 3(g) of the 
+explanation. The couple is said to be within the degree of prohibited 
+relationship:
+
+
+	if one is a lineal ascendant of the other,
+	if one was the wife or husband of lineal ascendant or descendant of the 
+	other,
+	if one was the wife of the brother or the father's brother's wife or 
+	grandmother's brother's wife and
+	if the two are brother and sister, uncle and niece, aunt and nephew, or 
+	children of a brother and sister or of two brothers or two sisters.
+
+
+
+Under Muslim Law
+
+Inter-sect and Inter-religious Marriages
+
+There is no prohibition on inter-sect or inter-school marriage, but 
+inter-religious marriages are restricted under Muslim law.
+
+
+
+A Sunni male is allowed to marry a non-Muslim Kitabia (whose faith is based on 
+same holy book containing revelations such as Christians and Jews, but not 
+Sikhs), but not a fire-worshipper or idol-worshipper.
+
+
+
+Under the Shia law, the marriage of a Muslim male or female with a non-Muslim is 
+null and void.
+
+
+
+Consanguinity
+
+Prohibitory grounds on the basis of consanguinity restricts Muslim males to 
+marry the following:
+	his mother or grandmother, how high soever,
+	his daughter or granddaughter, how low soever,
+	 his sister, full, consanguine or uterine,
+	his aunt (both on father's and mother's side), how high soever.
+
+The expression how high soever and how low soever mean ascendants and 
+descendants of any degree respectively.
+
+
+
+Affinity
+
+It is based on the relationship arising out of marriage, irrespective of the 
+fact whether marriage is void or valid. On the basis of this, a Muslim male 
+cannot marry his wife's mother or grandmother, how high soever, his father's 
+wife or father's father's wife, how high soever, foster-mother's son's wife. A 
+female child cannot marry her foster-mother's husband, Foster-mother's son, 
+Foster-mother's daughter's husband.
+
+
+
+Marriage between Cousins
+
+In Muslim law, there is no prohibition on marriage between cousins including all 
+the first cousins, parallel as well as cross.
+
+
+Unlawful Conjugation
+
+Under Muslim law, a male is not allowed to have at the same time two wives who 
+are so related to each other by consanguinity, affinity or fosterage, that if 
+either had been a male, they could not have lawfully married each other.
+
+
+
+Marriage with a Woman Undergoing Iddah
+
+If a Sunni male marry a woman during the period of iddah, so that marriage is 
+irregular. But in case of Shia male, such marriage is void.
+
+
+
+Prohibitions on Marriage under Parsi and Christian Laws
+
+The Parsi law also lays down prohibitions on the ground of affinity and 
+consanguinity.
+
+The Christian Marriage Act does not specify the degree of prohibited 
+relationship but lays down that a marriage which is forbidden by the personal 
+law of the parties is not valid.
+
+
+
+Special Marriage Act
+
+This act provides the provisions for the performance of marriage by civil 
+ceremony. All marriages can either be registered under the respective personal 
+law or under the Special Marriage Act, 1954. It extends to all citizens of India 
+irrespective of their religion. It provides for both solemnizations as well as 
+legal registration.
+
+Special Marriage Act has carved a simple means to legally register a marriage 
+between two people from different religion, however even if both of the 
+intending parties belong to the same religion, they can choose to register the 
+marriage under this Act.
+
+
+
+Registration of Marriage
+
+It is a special provision of the Special Marriage Act that a marriage solemnized 
+in any other form under any law, between any two persons, may be registered 
+under the Act, and on registration, such a marriage for all intends and purposes 
+is treated as performed under the Act.
+
+
+
+Presumption of Marriage
+
+Section 114 of The Indian Evidence Act lays down that where independent evidence 
+of solemnization of a marriage is not available, it will be presumed to be a 
+valid marriage by cohabitation between the parties unless the contrary is 
+proved.
+
+
+
+Nullity of Marriage
+
+The jurisdiction to declare a marriage valid or invalid is vested in the courts. 
+The courts can declare a marriage null and void if it is solemnized in violation 
+of impediments on marriage which were considered absolute. So, no valid marriage 
+could come into existence, if either spouse is already married to somebody else, 
+who was alive at the time of marriage, or spouses were related to each other 
+within prohibited degrees, or either party did not freely consent to the 
+marriage.
+
+
+
+Such a marriage could be formally annulled by a decree of an ecclesiastical 
+court and even without such a degree, either party could contract another 
+marriage.
+
+
+
+Void Marriages
+
+It is basically a misnomer (wrong term) and a void marriage, when two persons 
+having no capacity to marry have, in fact, undergone the requisite rites and 
+ceremonies of marriage. When court passes a decree of nullity in respect of a 
+void marriage, it declares a marriage null and void. Under all the Indian 
+matrimonial statutes, a petition for nullity can be filed only by either party 
+to the marriage. Also, if one of the parties dies, the other cannot file such a 
+petition.
+
+
+
+For example, in Molly Joseph V. George Sebastian and Jose V. Allice case.
+
+
+
+Grounds of Void Marriage
+
+The grounds of void marriage under the Indian personal laws are:
+
+Hindu Law
+
+Under Hindu law, following are the grounds of void marriage:
+
+	The second marriage will be void if the first marriage is valid.
+	If the parties are sapinda (a person considered to be in relation to any of 
+his or her three nearest lineal made ancestors or descendants) to each other.
+	If the parties are under prohibited degrees of relationship.
+	If the required ceremonies are not performed.
+	Marriage between a Hindu and non-Hindu is void under this act.
+
+
+
+Muslim Law
+
+Under Muslim law, following are the grounds to declare a Muslim marriage void:
+
+	consanguinity
+	affinity
+	fosterage
+
+Under the Shia law, a marriage is void on the basis of above said grounds. It is 
+also the base to declare Sunni marriage as irregular.
+
+
+
+Voidable Marriages
+
+It is a valid marriage till it is avoided. A voidable marriage can be avoided 
+only on a petition by either party to the marriage. If any one of the party does 
+not file petition for annulment of marriage, it will remain valid, and if one of 
+the party dies, the validity of the marriage cannot be questioned in any court 
+of law.
+
+
+
+Grounds of Voidable Marriage
+
+The grounds to declare a marriage voidable are given below:
+
+Hindu Law
+
+Under the Hindu Marriage Act, voidable marriage grounds:
+
+	On the account of impotency.
+	On the account of unsoundness of mind.
+	Respondent's pregnancy at the time of marriage.
+	Petitioner's consent was obtained by force or fraud as to the nature of 
+	ceremony.
+
+
+
+Muslim Law
+
+Under the Sunni law, the grounds of irregular marriage are:
+
+	Marriage with a woman undergoing iddah.
+	On the ground of different religion, violation of marriage.
+	Marriage performed without witness.
+	Marriage with fifth women.
+	Marriage performed in violation of rule against unlawful conjugation.
+
+
+
+Lack of Consent - Consent obtained by Fraud or Force
+
+Matrimonial Causes Act, 1973 lays down the factors which are given below
+
+	Fraud as to the nature of ceremony.
+	Identity of a party.
+	Concealment of disease or deformity.
+	Concealment of religion or caste.
+	Concealment of unchastity.
+	Concealment of illegitimate birth.
+	Concealment of age.
+	Concealment of financial status and job and educational qualification.
+	Non-disclosure of pre-marriage status.
+	Wife being devoid of female organs.
+	Fraud of third person.
+	Physical or mental impotency.
+
+
+
+Children of Void and Voidable Marriage
+
+Under the Matrimonial Causes Act, children of voidable marriage continue to 
+remain legitimate even after the passing of the decree of annulment of the 
+marriage. The present position under the Hindu Marriage Act and the Special 
+Marriage Act is as under:
+
+	Children of unannulled (not declared invalid) voidable marriage are 
+legitimate in the same way as children of an otherwise valid marriage.
+	Children of annulled (declared invalid) voidable and void marriage (whether 
+declared void or not) are legitimate but they will inherit the property of their 
+parents alone and of none else.
+	If the marriage is void or voidable under any provision of the law, except 
+Sections 11 and 12, the children will be illegitimate.
+
+
+
+Such children can inherit the separate property of their father under Section 8, 
+Hindu Succession Act, but could not lay any claim on the coparcenary interest of 
+the father. Child of such a marriage has no birth right in the Hindu Joint 
+Family property.
+
+
+
+Valid, Void and Irregular Marriages under Muslim Law
+
+Muslim law does not differentiate void and voidable marriages. On the basis of 
+validity, classification of marriage under Muslim law is as follows:
+
+Valid or Sahih Marriage
+
+This marriage is held between the parties having capacity to marry with all 
+important formalities and follow all legal consequences of a valid marriage.
+
+
+
+Void or Batil Marriage
+
+This is performed in violation of perpetual impediments, under Sunni law, and of 
+all impediments under Shia law. A Batil marriage is no-marriage, it means it is 
+void-ab-initio. No legal consequences occur from it. So, such a marriage 
+performed in violation of rules of consanguinity, fosterage or affinity is void 
+marriage. No legal action is provided under Muslim law.
+
+
+
+Irregular or Fasid Marriage
+
+An irregular marriage has no effect before consummation. Either party may 
+terminate it, at anytime, either before or after its consummation, by expressing 
+an intention to do so.
+
+The Shia law does not recognize irregular marriages, and marriages performed in 
+violation of perpetual or temporary or remedial impediments are void.
+
+
+
+Judicial Separation and Divorce
+
+Judicial separation is viewed as a lesser evil than divorce, since it leaves 
+open the door for reconciliation. A decree of judicial separation does not 
+dissolve the marriage bond but suspends marital rights and obligation during the 
+period of subsistence of the decree, however, parties continued to be husband 
+and wife, neither party is free to remarry. In the event of one of the spouses 
+dying during, the subsistence of the decree of judicial separation, the other 
+will succeed to his/her property.
+Judicial Separation and Separate Residence
+
+Under Section 18(2), Hindu Adoptions and Maintenance Act, 1956, a Hindu wife 
+may, on certain grounds, live separate and claim maintenance from her husband
+Decree of Judicial Separation in a Petition for Divorce
+The law of maintenance and alimony may be classified under the following 
+categories:
+.
+{"prompt": "<prompt text>", "completion": "<ideal generated text>"}
+{"prompt": "<prompt text>", "completion": "<ideal generated text>"}
+{"prompt": "<prompt text>", "completion": "<ideal generated text>"}
+
+{"messages": [{"role": "system", "content": "Marv is a factual chatbot that is also sarcastic."}, {"role": "user", "content": "What's the capital of France?"}, {"role": "assistant", "content": "Paris, as if everyone doesn't know that already."}]}
+{"messages": [{"role": "system", "content": "Marv is a factual chatbot that is also sarcastic."}, {"role": "user", "content": "Who wrote 'Romeo and Juliet'?"}, {"role": "assistant", "content": "Oh, just some guy named William Shakespeare. Ever heard of him?"}]}
+{"messages": [{"role": "system", "content": "Marv is a factual chatbot that is also sarcastic."}, {"role": "user", "content": "How far is the Moon from Earth?"}, {"role": "assistant", "content": "Around 384,400 kilometers. Give or take a few, like that really matters."}]}
+create jsnol
+following this
+Access to legal information and awareness is a challenge for a large population in India, especially for those who are not literate or are from marginalized communities. There is a need to provide a user-friendly and easily accessible platform for legal awareness. Challenge: Develop a digital assistant that can provide legal information and guidance to people in a user-friendly manner. The digital assistant should be able to converse in multiple languages and provide information in a concise and easy-to-understand manner. The platform should be accessible through various devices, including smartphones, tablets, and desktop computers. The digital assistant should be able to address common legal queries, such as: 1. What are my rights as a citizen? 2. How can I file a complaint? 3. How can I access legal aid services? 4. How can I obtain legal documents? 5. What are the legal implications of a particular action? The digital assistant should also be able to provide information on various legal topics, such as family law, property law, labor law, and criminal law. Judging criteria: 1. Effectiveness in providing legal information and guidance in a user-friendly manner 2. Ease of accessibility through various devices and languages 3. Innovation in design and functionality 4. Potential for scalability and sustainability 5. Impact on improving legal awareness and access to justice for marginalized communities. Note: The Digital solution should be integrated with an all-encompassing framework of Know- Your-Rights, as described under Develop a comprehensive, accessible, and user-friendly Know-Your-Rights framework that will educate citizens in India about their legal rights, entitlements, and remedies. Background: Many citizens in India are unaware of their legal rights and often do not know how to seek redressal in case of legal violations. A comprehensive Know-Your-Rights framework can help citizens become better informed about their legal rights and help them navigate the legal system to seek redressal. Possible solution components: 1. Identification of relevant laws and regulations: Identify and compile all relevant laws and regulations that govern various aspects of citizensÃ¢â‚¬â„¢ lives in India. 2. Simplification of legal language: Simplify the legal language of these laws and regulations so that they are easily understandable by the common citizen. 3. Categorization of legal rights: Categorize these laws and regulations according to the legal rights they protect. For example, laws relating to labour rights can be grouped under one category, while those relating to consumer rights can be grouped under another. Indexing all the Laws of the Central Government and State Governments in India with auto- categorization of legal rights of respective types of beneficiaries such as tribals, senior citizens, persons with disability, etc., under the Know-Your-Rights Framework for India. 4. User-friendly design: Design an easy-to-navigate website or mobile application that is user-friendly and accessible to all. The platform should be designed keeping in mind the diverse needs of the users, including those with disabilities. 5. Interactive features: Incorporate interactive features such as chatbots, virtual assistants, and decision trees to make it easier for users to navigate the platform and find the information they need. 6. Regional language support: Ensure that the platform is available in multiple regional languages to reach a wider audience. 7. Collaboration with legal aid providers: Collaborate with legal aid providers to ensure that the platform is regularly updated and reflects changes in the legal landscape. Expected outcomes: 1. A user-friendly and comprehensive Know-Your-Rights framework that is accessible to citizens across India. 2. Increased awareness among citizens about their legal rights and entitlements. 3. Improved access to justice for citizens through a better understanding of the legal system. 4. Increased collaboration between legal aid providers and citizens. 5. Development of innovative solutions for legal
